@@ -1,0 +1,143 @@
+body{
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+a{
+  color: seashell;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/*Header Section*/
+
+header{
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+}
+
+header img{
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+  display: inline-block;
+}
+
+nav span {
+  padding: 20px 10px;
+}
+
+/* Main Section */
+
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+/* Mission Section */
+
+#mission{
+  height: 700px;
+  background-image:url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+  padding-top: 70px;
+}
+
+#mission .content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+#store{
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+#store img{
+  width: 300px;
+  height: 200px
+}
+
+.store-selections{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.topleft {
+  padding-right: 25px;
+}
+
+.topleft {
+  padding-left: 25px;
+}
+
+.bottomleft{
+  padding-right: 12.5px;
+}
+
+.bottomright{
+  padding-left: 12.5px;
+}
+.store-selections h4{
+  margin-top: 10px;
+}
+
+#locations-container{
+  height: 500px;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+  margin-top: 70px;
+  padding-top: 70px;
+}
+
+.location{
+  opacity: 1.0;
+  padding: 10px;
+  background-color: black;
+  display: inline-block;
+  width: 300px;
+  margin: 5px 20px;
+}
+
+#locations-container h2{
+  margin-bottom: 15px;
+}
+
+
+.location p{
+  margin: 30px 0;
+}
+
+.footer{
+  height: 200px;
+}
+
+.footer h2{
+  margin-top: 10px;
+}
+
+.copyright{
+  text-align: left;
+  margin-left: 20px;
+}
